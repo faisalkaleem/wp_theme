@@ -57,6 +57,8 @@ function add_movie_custom_fields(){
 function render_movie_information_fields(){ 
     global $post;
     $post_meta = get_post_meta($post->ID);
+//    $post_meta = get_post_meta($post->ID);
+//    $post_meta = get_post_meta($post->ID);
 //    echo '<pre>';
 //    print_r($post_meta);
 //    echo '</pre>';
